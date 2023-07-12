@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.body {
+  color: #fff;
+  background: #000;
+}
+
+.dark-mode {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 5px;
+}
+
+.dark {
+  color: #fff;
+  background-color: #000;
+}
+
+.all-container {
+  width: 650px;
+  height: fit-content;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px 30px;
+  line-height: 2;
+  margin: 0 auto;
+  border: none;
+  box-shadow: 2px 4px 8px #1d1b1b;
+}
+
+sup {
+  color: red;
+}
+
+.personnal-info {
+  padding: 10px 0;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px 0 30px 0;
+}
+
+h3 {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.input {
+  width: 250px;
+}
+
+.label2 {
+  padding-right: 59px;
+}
+
+.label3 {
+  padding-right: 61px;
+}
+
+.label4 {
+  padding-right: 35px;
+}
+
+.label5 {
+  padding-right: 29px;
+}
+
+.label6 {
+  padding-right: 40px;
+}
+
+.label7 {
+  padding-right: 40px;
+}
+
+.label8 {
+  padding-right: 80px;
+}
+
+.label9 {
+  padding-right: 97px;
+}
+
+.label10 {
+  padding-right: 55px;
+}
+
+.student-info1 {
+  display: flex;
+
+}
+
+.radio {
+  padding: 0 8px;
+}
+
+.student-image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label11 {
+  padding-right: 85px;
+}
+
+.label12 {
+  padding-right: 25px;
+}
+
+.academic {
+  padding-bottom: 10px;
+}
+
+.label13 {
+  padding-right: 75px;
+}
+
+.label14 {
+  padding-right: 98px;
+}
+
+.label15 {
+  padding-right: 55px;
+}
+
+.permanent-address {
+  padding-bottom: 10px;
+}
+
+button {
+  padding: 5px 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 4px 8px #1d1b1b;
+}
+

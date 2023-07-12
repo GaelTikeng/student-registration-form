@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/styles/style.css" />
+  <title>Registration form</title>
+</head>
+<body>
+  <div class="all-container">
+    <h2>
+      Student Registration Form 
+    </h2>
+    <button onclick="change()" class="dark-mode">☀️</button>
+    <hr>
+    <h3>Personal informations</h3>
+    <form action="">
+      <div class="personnal-info">
+        <div class="student-image">
+          <label class="label1" for="image">Student image<sup>*</sup>:</label>
+          <input type="file" name="studentImage" id="studentImage" required/>
+          <p>(Less than 10Mb)</p>
+        </div>
+        <div>
+          <div class="student-info">
+            <label class="label2" for="name">First name<sup>*</sup>:</label>
+            <input class="input" type="text" placeholder="Enter your first name" required />
+          </div>
+          <div class="student-info">
+            <label class="label3" for="lastName">last name<sup>*</sup>:</label>
+            <input class="input" type="text" placeholder="Enter your last name" required />
+          </div>
+          <div class="student-info">
+            <label class="label4" for="name">Father's name:</label>
+            <input class="input" type="text" placeholder="Name"/>
+          </div>
+          <div class="student-info">
+            <label class="label5" for="name">Mother's name:</label>
+            <input class="input" type="text" placeholder="Name" />
+          </div>
+          <div class="student-info">
+            <label class="label9" for="name">Email<sup>*</sup>:</label>
+            <input class="input" type="text" placeholder="email@example.com" required />
+          </div>
+          <div class="student-info">
+            <label class="label10" for="name">Telephone<sup>*</sup>:</label>
+            <input class="input" type="text" placeholder="+237" required />
+          </div>
+          <div class="student-info">
+            <label class="label6" for="name">Date of birth<sup>*</sup>:</label>
+            <input class="input" type="date" required />
+          </div>
+          <div class="student-info">
+            <label class="label7" for="name">Place of birth:</label>
+            <input class="input" type="text" placeholder="Enter placeholder of birth"/>
+          </div>
+          <div class="student-info1">
+            <label class="label8" for="name">Gender:</label>
+            <div>
+              <label class="radio">Male</label>
+              <input class="radio" type="radio" name="Male-Female"/>
+            </div>
+            <div>
+              <label class="radio">Female</label>
+              <input class="radio" type="radio" name="Male-Female"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <h3>Academique informations</h3>
+      <div class="academic">
+        <div>
+          <label class="label11" for="level">Level<sup>*</sup>:</label>
+          <select>
+            <option disabled selected value>Select level</option>
+            <option>High school</option>
+            <option>Bachelor</option>
+            <option>Master's</option>
+            <option>Phd</option>
+          </select>
+        </div>
+        <div>
+          <label class="label12" for="departmant">Department<sup>*</sup>:</label>
+          <select>
+            <option disabled selected value>Select a Department</option>
+            <option>Electrical Engeneering</option>
+            <option>Computer Engeneering</option>
+            <option>Software Engeneering</option>
+            <option>civil Engeneering</option>
+          </select>
+        </div>
+      </div>
+      <hr>
+      <h3>Permanent Address</h3>
+      <div class="permanent-address">
+        <div class="student-info">
+          <label class="label13" for="region">Region</label>
+          <input class="input" type="text" placeholder="Region"/>
+        </div>
+        <div class="student-info">
+          <label class="label14" for="city">City</label>
+          <input class="input" type="text" placeholder="City"/>
+        </div>
+        <div class="student-info">
+          <label class="label15" for="zip code">Zip Code:</label>
+          <input class="input" type="text" placeholder="Zip code"/>
+        </div>
+      </div>
+      <button>Submit</button>
+    </form>
+  </div>
+  <script src="./assets/scripts/main.js"></script>
+</body>
+</html>
